@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.cart {
+  list-style: none;
+  padding: 0;
+}
+
+.cart button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
